@@ -49,7 +49,7 @@
 					per.setName("yhzhu");	//使用			
 				}
 				
-			2. 用到什么，引用什么：可在全局位置或具体位置
+			2. 用到什么，引用什么：可在全局位置或具体位置（见04th/）
 				using A::Person;			//在main函数前面
 				using A::printVersion;		//在main函数前面
 				
@@ -60,7 +60,7 @@
 					printVersion();			//使用
 				}		
 				
-			3. 全部的空间元素：
+			3. 全部的空间元素：（见05th/）
 				using namespace A			//在main函数前面
 				
 				//然后直接使用其中的类和函数
@@ -71,7 +71,7 @@
 					printVersion();			//使用
 				}				
 
-			4. 两个命名空间冲突的元素，在使用时一定要加上命名空间
+			4. 两个命名空间冲突的元素，在使用时一定要加上命名空间（见05th/）
 				using namespace A			//在main函数前面
 				using namespace C			//在main函数前面
 				
@@ -79,10 +79,8 @@
 				int main(){		
 					A::printVersion();			//使用
 					C::printVersion();			//使用
-				}				
-			
+				}					
 	3.5
-	
 	3.6 cout的引入
 		3.6.1 cout的引入
 		
