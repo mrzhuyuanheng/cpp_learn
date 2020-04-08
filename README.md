@@ -85,3 +85,16 @@
 		3.6.1 cout的引入
 		
 		3.6.2 cout的命名空间的引入
+		
+	3.7 overload(重载)、指针和引用
+		3.7.1 overload
+			1. 可以重载的几种函数类型
+				a. 函数的参数类型差别 		int add(int a, int b); 和 double add(int a, double b);
+				b. 函数的参数个数的不同 	int add(int a, int b); 和 int add(int a, int b, int c);
+				c. 函数的参数顺序的不同		double add(int a, double b); 和 double add(double a，int b);
+				
+			2. 不可以重载的函数
+				函数的参数一模一样，但是返回值不一样（原因是编译器不知道调用哪一个函数）
+				
+		3.7.2 指针和引用
+			
